@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = 20;
+    let array=[0,1];
+
+    function isFibonacci(number,arr) {
+        this.number=number;
+        this.arr=arr;
+        for (let i = 0 ; i <20 ;i ++){
+            let a = this.arr[i];
+            let b = this.arr[i+1];
+            let c = a +b ;
+            this.arr.push(c);
+        }
+        console.log(this.arr)
+        for (let j =0 ; j<length.arr ; j++){
+            if (number==this.arr[j]){
+                document.write(number + "is FIbonaccci");
+                return;
+            }
+
+            else {
+                document.write(number + "is not FIbonaccci");
+                return;
+            }
+        }
+
+    };
+    let test = new isFibonacci(a,array);
+</script>
+</body>
+</html>
